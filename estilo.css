@@ -6,6 +6,37 @@
     font-family: 'Advent Pro', 'Arial', sans-serif;
     font-weight: 400;
 }
+body{
+    background-color: rgb(177, 250, 255);
+}
+
+#pInicio{
+    margin-top: 1.5em;
+    margin-left: 1em;
+    padding: 10px;
+    background-color: rgb(41, 189, 235);
+    border-radius: 10px;
+    list-style:none ;
+    width: 9em;
+    font-size: x-large;
+    font-weight: 900;
+}
+#pInicio2{
+    margin-top: 10em;
+    margin-left: 1em;
+    padding: 10px;
+    background-color: rgb(41, 189, 235);
+    border-radius: 10px;
+    list-style:none ;
+    width: 9em;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+figure{
+    background-color: rgb(58, 10, 146);
+
+}
 
 figure img{
     box-sizing: border-box;
@@ -55,27 +86,21 @@ nav img{
     padding-top: 2em;
 }
 
-button {
-    margin-top: 20px;
-    font-size: x-large;
-    font-weight: bold;
-    background-color: aqua;
-    padding: 10px;
-    border-radius: 10px;
-    border: solid black;
-}
-
-#titulo {
-    margin-top: 20px;
-    background-color: blueviolet;
-    text-align: center;
-}
-
 .hovertext {
     padding: 10px;
 }
 
 .hovertext:hover {
+    border-radius: 8px;
+    background-color: rgb(75, 17, 233);
+}
+
+.hoverlogo {
+    
+    padding: 20px;
+}
+
+.hoverlogo:hover {
     border-radius: 8px;
     background-color: rgb(75, 17, 233);
 }
