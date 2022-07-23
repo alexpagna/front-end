@@ -3,38 +3,79 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: 'Advent Pro', 'Arial', sans-serif;
+    font-weight: 400;
 }
 
 figure img{
     box-sizing: border-box;
-    width: 170px;
+    width: 10em;
     height: 4em;
-    margin:0 10px;   
-    margin-left: 13px;
-    margin-right: 13px;
+    margin:10px;
 }   
+
 a{
     text-decoration: none;
     color: white;
 }
-ul {    
-    display: flex;
-    justify-content:space-evenly ;
-    list-style: none;
-    background-color: rgb(14, 0, 141);
-    padding: 0px 20px;
-      
-    
-}
+
 nav img{
     height: auto;
     width: 100px;
     margin-left: 1px;
     margin-right: 1px;  
 }
-#fogon { margin-left:0px;}
-#Logos img { 
-    margin-left: 65em;
-    height: 1em;
-    width: 1em;
+
+#fogon {
+    margin-left:0px;
+}
+
+.redes{
+    height: 2em;
+    width: auto;
+}
+
+#logos {
+    margin-top: 20em;
+    position: fixed;
+    display: inline;
+    right: 0;
+    list-style: none;
+}
+
+#ulabajo {    
+    display: flex;
+    justify-content: space-evenly ;
+    list-style: none;
+    background-color: rgb(14, 0, 141);
+    padding: 0px 20px;
+}
+
+.tb{
+    padding-top: 2em;
+}
+
+button {
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid black;
+}
+
+#titulo {
+    margin-top: 20px;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.hovertext {
+    padding: 10px;
+}
+
+.hovertext:hover {
+    border-radius: 8px;
+    background-color: rgb(75, 17, 233);
 }
